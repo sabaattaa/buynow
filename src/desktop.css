@@ -1,0 +1,166 @@
+@media screen and (orientation: landscape) {
+  .icons-style {
+    width: 25px;
+    height: 25px;
+    color: red;
+    margin-right: 5px;
+  }
+
+  .input-label-style {
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  .stare-style {
+    color: red;
+    width: 10px;
+    height: 10px;
+  }
+
+  .input-field {
+    border: gray 1px solid;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .error-text {
+    font-size: 14px;
+  }
+  .reg-form {
+    width: 25vw;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 30px 20px 30px 20px;
+    /* box-shadow: 2px 2px 2px 2px rgb(rgb(88, 84, 84,1), rgb(41, 43, 41), rgb(16, 16, 17), 1); */
+
+    box-shadow: 2px 2px 5px 1px rgb(76, 77, 76, 0.5);
+  }
+
+  .h100 {
+    height: 100vh;
+  }
+
+  .add-product {
+    border: 1px solid black;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100vh;
+  }
+  .navbar-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid #d7d1d0;
+    /* position: absolute; */
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+  }
+  .search-text {
+    display: flex;
+    width: 70vw;
+    outline: none;
+    border: gray 1px solid;
+    border-radius: 3px;
+  }
+  .navbar-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    padding: 5px;
+  }
+
+  .profile-container {
+    border-bottom: 1px solid #e0dcdb;
+    padding: 2px 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 500;
+    color: #908f8f;
+  }
+  .nav-tabs {
+    position: absolute;
+    right: 25px;
+    top: 70px;
+    background-color: #f9f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .nav-tabs2 {
+    display: none;
+  }
+  .profile-container:hover {
+    background-color: #d3cece;
+  }
+}
+/* media query close  */
+.logo-img {
+  width: 80px;
+  height: 70px;
+}
+
+.gray {
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  padding: 5px;
+}
+.small-img {
+  height: 90px;
+  width: 90px;
+  display: block;
+}
+.all-products {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 5px;
+}
+.product-card-image {
+  height: 250px;
+  width: 250px;
+  border: 1px solid gray;
+  display: block;
+  border-radius: 5px;
+}
+
+.product-card {
+  width: 275px;
+  border: 1px solid rgb(255, 215, 215);
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(240, 235, 235);
+  border-radius: 5px;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.desktopbackground.org/p/2010/07/04/43332_4k-ultra-hd-black-wallpapers-hd-desktop-backgrounds-3840x2160_3840x2160_h.jpg");
+}
+.red {
+  border: 1px solid red;
+}
