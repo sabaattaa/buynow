@@ -5,7 +5,7 @@ import { AddProduct } from "./pages/addProduct";
 import { AllProducts } from "./pages/allProducts";
 
 export const routes = [
-  { path: "/", component: <AllProducts /> },
+  { path: "/buynow", component: <AllProducts /> },
   { path: "/login", component: <Login /> },
   { path: "/register", component: <Register /> },
   { path: "/dashboard", component: <Dashboard /> },
